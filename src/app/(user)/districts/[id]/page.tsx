@@ -297,6 +297,7 @@ const projects = [
 ];
 
 const DistrictPage = ({params}) => {
+  console.log(params);
   return (
     <>
       <PageCover {...district} />
