@@ -1,3 +1,5 @@
+"use client";
+
 import BookMeeting from "@/components/BookMeeting";
 import DevelopersWrapper from "@/components/Developers/DevelopersWrapper";
 import Location from "@/components/Location";
