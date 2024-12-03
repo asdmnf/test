@@ -3,7 +3,6 @@
 import Link from "next/link";
 import ImageCarousel from "../ImageCarousel";
 import FavoriteButton from "../FavoriteButton";
-import CONSTANTS from "@/utils/constants";
 
 interface Project {
   id: number;
@@ -23,8 +22,8 @@ const ProjectCard: React.FC<Project> = ({ images, title, isFavorite }) => {
       </div>
       <div className="p-4 text-center">
         <Link
-          href={`${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
-          as={`/${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
+          href={`/specific-project`}
+          as={`/specific-project`}
         >
           <h3 className="text-lg font-bold mb-2">{title}</h3>
         </Link>

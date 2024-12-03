@@ -1,4 +1,3 @@
-import CONSTANTS from "@/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
 import FavoriteButton from "../FavoriteButton";
@@ -23,8 +22,8 @@ const DistrictCard: React.FC<{
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
         <Link
-          href={`${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
-          as={`/${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
+          href={`/specific-district`}
+          as={`/specific-district`}
         >
           <p className="text-white font-bold text-lg">{name}</p>
         </Link>
