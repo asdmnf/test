@@ -294,9 +294,8 @@ const projects = [
   },
 ];
 
-const DistrictPage = async ({params}: PageProps) => {
+const DistrictPage = ({params}: PageProps) => {
   const districtId = params.id;
-  await new Promise((resolve) => setTimeout(resolve, 1000));
   console.log(params);
   if (!districtId) {
     return <div>District not found</div>;
