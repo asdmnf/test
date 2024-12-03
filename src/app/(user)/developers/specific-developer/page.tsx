@@ -26,9 +26,9 @@ const developer = {
   name: "5 Capital Group Properties",
   logo: "images/developers/slide1.jpg",
   images: [
-    "images/developers/slide1.jpg",
-    "images/developers/slide2.jpg",
-    "images/developers/slide3.jpg",
+    "./images/developers/slide1.jpg",
+    "./images/developers/slide2.jpg",
+    "./images/developers/slide3.jpg",
   ],
   description:
     "Capital Group Properties is a leader in creating luxurious and sustainable communities across Egypt, combining innovation and quality in every project, 5 Capital Group Properties is a leader in creating luxurious and sustainable communities across Egypt, combining innovation and quality in every project.",
