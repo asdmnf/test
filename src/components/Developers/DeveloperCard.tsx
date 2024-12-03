@@ -27,7 +27,7 @@ const DeveloperCard: React.FC<Developer> = ({
   isFavorite,
   // onFavoriteToggle,
 }): JSX.Element => {
-  console.log(id);
+  console.log(id, 'id');
   return (
     <div className="bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-700 rounded-lg shadow-md overflow-hidden hover:bg-gray-50 dark:hover:bg-gray-600">
       {/* Carousel */}
