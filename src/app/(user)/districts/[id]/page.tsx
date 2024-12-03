@@ -7,6 +7,12 @@ import PageWrapper from "@/components/PageWrapper";
 import ProjectsWrapper from "@/components/projects/ProjectsWrapper";
 import UnitsWrapper from "@/components/units/UnitsWrapper";
 
+interface PageProps {
+  params: {
+    id: string;
+  };
+}
+
 export async function generateStaticParams() {
   // List all the possible district IDs that should have static pages.
   const districtIds = ['1', '2', '3', '4', '5'];
@@ -296,9 +302,13 @@ const projects = [
   },
 ];
 
-const DistrictPage = async ({params}: {params: {id: string}}) => {
+const DistrictPage = async ({params}: PageProps) => {
+  const districtId = params.id;
   await new Promise((resolve) => setTimeout(resolve, 1000));
   console.log(params);
+  if (!districtId) {
+    return <div>District not found</div>;
+  }
   return (
     <>
       <PageCover {...district} />
