@@ -7,9 +7,9 @@ const units = [
   {
     id: 1,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "11,710,000 EGP",
@@ -26,9 +26,9 @@ const units = [
   {
     id: 2,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "28,208,000 EGP",
@@ -45,9 +45,9 @@ const units = [
   {
     id: 3,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -64,9 +64,9 @@ const units = [
   {
     id: 4,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -83,9 +83,9 @@ const units = [
   {
     id: 5,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -102,9 +102,9 @@ const units = [
   {
     id: 6,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",

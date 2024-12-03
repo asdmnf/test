@@ -14,14 +14,14 @@ import PaymentPlans from "../../projects/_components/PaymentPlans";
 const UnitPage = () => {
   const unit = {
     id: 1,
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "11,710,000 EGP",
@@ -61,14 +61,14 @@ const UnitPage = () => {
     id: 1,
     title: "ABC Model by TAJ in New Alamein",
     startingPrice: "5,000,000 EGP",
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     propertyTypes: [
       { type: "Sky Villa", count: 1 },
@@ -100,11 +100,11 @@ const UnitPage = () => {
   const developer = {
     id: 1,
     name: "Tatweer Misr",
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     description:
       "Established in 2014, Tatweer Misr is an Egyptian shareholding real estate company, that capitalizes on a wealth of industrial and real estate experience.",
@@ -115,7 +115,7 @@ const UnitPage = () => {
   const district = {
     id: 1,
     name: "New Cairo",
-    image: "/images/developers/slide1.jpg",
+    image: "images/developers/slide1.jpg",
     isFavorite: true,
   };
 
@@ -123,9 +123,9 @@ const UnitPage = () => {
     {
       id: 1,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "11,710,000 EGP",
@@ -142,9 +142,9 @@ const UnitPage = () => {
     {
       id: 2,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "28,208,000 EGP",
@@ -161,9 +161,9 @@ const UnitPage = () => {
     {
       id: 3,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "10,549,000 EGP",
@@ -180,9 +180,9 @@ const UnitPage = () => {
     {
       id: 4,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "10,549,000 EGP",
@@ -199,9 +199,9 @@ const UnitPage = () => {
     {
       id: 5,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "10,549,000 EGP",
@@ -218,9 +218,9 @@ const UnitPage = () => {
     {
       id: 6,
       images: [
-        "/images/developers/slide1.jpg",
-        "/images/developers/slide2.jpg",
-        "/images/developers/slide3.jpg",
+        "images/developers/slide1.jpg",
+        "images/developers/slide2.jpg",
+        "images/developers/slide3.jpg",
       ],
       status: "Ready To Move",
       price: "10,549,000 EGP",

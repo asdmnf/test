@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const newsItem = {
   id: 1,
-  imageSrc: "/images/developers/slide1.jpg",
+  imageSrc: "images/developers/slide1.jpg",
   date: "21 Oct",
   title: "Details and Information About Al Galala Ain Sokhna 2024",
   link: "/news/al-galala-ain-sokhna-2024",

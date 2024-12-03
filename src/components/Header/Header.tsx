@@ -28,7 +28,7 @@ const Header = () => {
         {/* Logo */}
         <Link href={CONSTANTS.PATHS.HOME}>
           <Image
-            src="/images/logo.png"
+            src="images/logo.png"
             alt="Black Shire Real Estate Logo"
             width={80}
             height={80}

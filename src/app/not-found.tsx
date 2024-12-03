@@ -8,7 +8,7 @@ const NotFound = () => {
       <div className="relative w-40 h-40 mb-6">
         {/* Your Logo */}
         <Image
-          src="/images/logo.png" // Replace with the path to your uploaded logo
+          src="images/logo.png" // Replace with the path to your uploaded logo
           alt="Not Found"
           width={200}
           height={200}

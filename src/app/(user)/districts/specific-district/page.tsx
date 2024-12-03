@@ -10,14 +10,14 @@ import UnitsWrapper from "@/components/units/UnitsWrapper";
 const district = {
   id: 1,
   name: "New Cairo",
-  logo: "/images/developers/slide1.jpg",
+  logo: "images/developers/slide1.jpg",
   images: [
-    "/images/developers/slide1.jpg",
-    "/images/developers/slide2.jpg",
-    "/images/developers/slide3.jpg",
-    "/images/developers/slide1.jpg",
-    "/images/developers/slide2.jpg",
-    "/images/developers/slide3.jpg",
+    "images/developers/slide1.jpg",
+    "images/developers/slide2.jpg",
+    "images/developers/slide3.jpg",
+    "images/developers/slide1.jpg",
+    "images/developers/slide2.jpg",
+    "images/developers/slide3.jpg",
   ],
   location: {
     lat: 30.0788,
@@ -33,11 +33,11 @@ const developers = [
   {
     id: 1,
     name: "Tatweer Misr",
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     description:
       "Established in 2014, Tatweer Misr is an Egyptian shareholding real estate company, that capitalizes on a wealth of industrial and real estate experience.",
@@ -47,11 +47,11 @@ const developers = [
   {
     id: 2,
     name: "LMD",
-    logo: "/images/developers/slide2.jpg",
+    logo: "images/developers/slide2.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     description:
       "Landmark was founded by Engineer Ahmed Sabbour, one of the pioneers in the Egyptian real estate market.",
@@ -61,8 +61,8 @@ const developers = [
   {
     id: 3,
     name: "Madinat Masr",
-    logo: "/images/developers/slide3.jpg",
-    images: ["/images/developers/slide1.jpg", "/images/developers/slide2.jpg"],
+    logo: "images/developers/slide3.jpg",
+    images: ["images/developers/slide1.jpg", "images/developers/slide2.jpg"],
     description:
       "Since our journey began over 60 years ago, our vision has always been to build for the future and create rich communities that grow.",
     projectsCount: 3,
@@ -71,8 +71,8 @@ const developers = [
   {
     id: 4,
     name: "Madinat Masr",
-    logo: "/images/developers/slide1.jpg",
-    images: ["/images/developers/slide1.jpg", "/images/developers/slide2.jpg"],
+    logo: "images/developers/slide1.jpg",
+    images: ["images/developers/slide1.jpg", "images/developers/slide2.jpg"],
     description:
       "Since our journey began over 60 years ago, our vision has always been to build for the future and create rich communities that grow.",
     projectsCount: 3,
@@ -81,8 +81,8 @@ const developers = [
   {
     id: 5,
     name: "Madinat Masr",
-    logo: "/images/developers/slide2.jpg",
-    images: ["/images/developers/slide1.jpg", "/images/developers/slide2.jpg"],
+    logo: "images/developers/slide2.jpg",
+    images: ["images/developers/slide1.jpg", "images/developers/slide2.jpg"],
     description:
       "Since our journey began over 60 years ago, our vision has always been to build for the future and create rich communities that grow.",
     projectsCount: 3,
@@ -91,8 +91,8 @@ const developers = [
   {
     id: 6,
     name: "Madinat Masr",
-    logo: "/images/developers/slide3.jpg",
-    images: ["/images/developers/slide1.jpg", "/images/developers/slide2.jpg"],
+    logo: "images/developers/slide3.jpg",
+    images: ["images/developers/slide1.jpg", "images/developers/slide2.jpg"],
     description:
       "Since our journey began over 60 years ago, our vision has always been to build for the future and create rich communities that grow.",
     projectsCount: 3,
@@ -104,9 +104,9 @@ const units = [
   {
     id: 1,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "11,710,000 EGP",
@@ -123,9 +123,9 @@ const units = [
   {
     id: 2,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "28,208,000 EGP",
@@ -142,9 +142,9 @@ const units = [
   {
     id: 3,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -161,9 +161,9 @@ const units = [
   {
     id: 4,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -180,9 +180,9 @@ const units = [
   {
     id: 5,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -199,9 +199,9 @@ const units = [
   {
     id: 6,
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     status: "Ready To Move",
     price: "10,549,000 EGP",
@@ -220,66 +220,66 @@ const units = [
 const projects = [
   {
     id: 1,
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "New Cairo",
     isFavorite: true,
   },
   {
     id: 2,
-    logo: "/images/developers/slide2.jpg",
+    logo: "images/developers/slide2.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "Sokhna",
     isFavorite: false,
   },
   {
     id: 3,
-    logo: "/images/developers/slide3.jpg",
+    logo: "images/developers/slide3.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "New Zayed",
     isFavorite: true,
   },
   {
     id: 4,
-    logo: "/images/developers/slide1.jpg",
+    logo: "images/developers/slide1.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "New Capital",
     isFavorite: false,
   },
   {
     id: 5,
-    logo: "/images/developers/slide2.jpg",
+    logo: "images/developers/slide2.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "North Coast",
     isFavorite: true,
   },
   {
     id: 6,
-    logo: "/images/developers/slide3.jpg",
+    logo: "images/developers/slide3.jpg",
     images: [
-      "/images/developers/slide1.jpg",
-      "/images/developers/slide2.jpg",
-      "/images/developers/slide3.jpg",
+      "images/developers/slide1.jpg",
+      "images/developers/slide2.jpg",
+      "images/developers/slide3.jpg",
     ],
     title: "Mostakbal City",
     isFavorite: false,

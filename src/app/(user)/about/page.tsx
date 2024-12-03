@@ -17,7 +17,7 @@ const AboutPage = () => {
         {/* About Logo */}
         <div className="w-full md:w-1/2">
           <Image
-            src="/images/logo.png"
+            src="images/logo.png"
             alt="Black Shire Logo"
             width={500}
             height={500}
