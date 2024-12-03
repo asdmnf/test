@@ -15,16 +15,6 @@ interface PageProps {
   };
 }
 
-export async function generateStaticParams() {
-  // List all the possible district IDs that should have static pages.
-  const districtIds = ['1', '2', '3', '4', '5'];
-
-  // Return these IDs in the format expected by Next.js.
-  return districtIds.map((id) => ({
-    id,
-  }));
-}
-
 const district = {
   id: 1,
   name: "New Cairo",
