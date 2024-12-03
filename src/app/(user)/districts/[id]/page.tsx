@@ -7,6 +7,16 @@ import PageWrapper from "@/components/PageWrapper";
 import ProjectsWrapper from "@/components/projects/ProjectsWrapper";
 import UnitsWrapper from "@/components/units/UnitsWrapper";
 
+export async function generateStaticParams() {
+  // List all the possible district IDs that should have static pages.
+  const districtIds = ['1', '2', '3', '4', '5'];
+
+  // Return these IDs in the format expected by Next.js.
+  return districtIds.map((id) => ({
+    id,
+  }));
+}
+
 const district = {
   id: 1,
   name: "New Cairo",
@@ -286,8 +296,7 @@ const projects = [
   },
 ];
 
-const DistrictPage = ({params}: {params: {id: string}}) => {
-  console.log(params.id);
+const DistrictPage = ({params}) => {
   return (
     <>
       <PageCover {...district} />
