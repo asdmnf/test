@@ -5,8 +5,9 @@ const newsItem = {
   imageSrc: "images/developers/slide1.jpg",
   date: "21 Oct",
   title: "Details and Information About Al Galala Ain Sokhna 2024",
-  link: "/news/al-galala-ain-sokhna-2024",
-  article: "Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 ",
+  link: "/news/specific-news",
+  article:
+    "Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 Details and Information About Al Galala Ain Sokhna 2024 ",
 };
 
 const NewsItemPage = () => {
@@ -31,7 +32,9 @@ const NewsItemPage = () => {
       </div>
 
       {/* Article */}
-      <p className="text-gray-600 dark:text-gray-300 text-justify">{newsItem.article}</p>
+      <p className="text-gray-600 dark:text-gray-300 text-justify">
+        {newsItem.article}
+      </p>
 
       {/* Book a Meeting */}
       <div className="mt-8 border rounded-lg p-4 shadow-md">
