@@ -254,35 +254,35 @@ import SpecificDeveloperPage from "@/components/fix/SpecificDeveloperPage";
 const DeveloperPage = () => {
   return <SpecificDeveloperPage />;
   // return (
-    // <>
-    //   <PageCover {...developer} />
-    //   <PageWrapper>
-    //     {/* Developer Details */}
-    //     <div>
-    //       <h1 className="text-3xl font-bold mb-2 text-[var(--primary-color)] dark:text-[#b39550]">
-    //         {developer.name}
-    //       </h1>
-    //       <p className="text-gray-600 dark:text-gray-300 font-semibold">
-    //         {developer.description}
-    //       </p>
-    //     </div>
+  // <>
+  //   <PageCover {...developer} />
+  //   <PageWrapper>
+  //     {/* Developer Details */}
+  //     <div>
+  //       <h1 className="text-3xl font-bold mb-2 text-[var(--primary-color)] dark:text-[#b39550]">
+  //         {developer.name}
+  //       </h1>
+  //       <p className="text-gray-600 dark:text-gray-300 font-semibold">
+  //         {developer.description}
+  //       </p>
+  //     </div>
 
-    //     {/* units Section */}
-    //     <PageHeader title="Units" length={units.length} />
-    //     <UnitsWrapper units={units} />
+  //     {/* units Section */}
+  //     <PageHeader title="Units" length={units.length} />
+  //     <UnitsWrapper units={units} />
 
-    //     {/* projects Section */}
-    //     <PageHeader title="Projects" length={projects.length} />
-    //     <ProjectsWrapper projects={projects} />
+  //     {/* projects Section */}
+  //     <PageHeader title="Projects" length={projects.length} />
+  //     <ProjectsWrapper projects={projects} />
 
-    //     {/* districts Section */}
-    //     <PageHeader title="Districts" length={districts.length} />
-    //     <DistrictsWrapper districts={districts} />
+  //     {/* districts Section */}
+  //     <PageHeader title="Districts" length={districts.length} />
+  //     <DistrictsWrapper districts={districts} />
 
-    //     {/* Book a Meeting */}
-    //     <BookMeeting />
-    //   </PageWrapper>
-    // </>
+  //     {/* Book a Meeting */}
+  //     <BookMeeting />
+  //   </PageWrapper>
+  // </>
   // );
 };
 
