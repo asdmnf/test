@@ -6,22 +6,22 @@ const SocialIcons = () => {
       <SocialIcon
         href="https://facebook.com"
         alt="Facebook"
-        src="/icons/facebook.svg"
+        src="icons/facebook.svg"
       />
       <SocialIcon
         href="https://instagram.com"
         alt="Instagram"
-        src="/icons/instagram.svg"
+        src="icons/instagram.svg"
       />
       <SocialIcon
         href="https://twitter.com"
         alt="Twitter"
-        src="/icons/twitter.svg"
+        src="icons/twitter.svg"
       />
       <SocialIcon
         href="https://youtube.com"
         alt="YouTube"
-        src="/icons/youtube.svg"
+        src="icons/youtube.svg"
       />
     </div>
   );
