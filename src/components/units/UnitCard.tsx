@@ -39,6 +39,7 @@ const UnitCard: React.FC<UnitCardProps> = ({
   isFavorite,
   project,
 }) => {
+  console.log(id);
   return (
     <div className="flex flex-col bg-white dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm overflow-hidden hover:bg-gray-50 dark:hover:bg-gray-600">
       {/* Image Section */}
@@ -53,7 +54,10 @@ const UnitCard: React.FC<UnitCardProps> = ({
       {/* Card Content */}
       <div className="p-4">
         <div className="relative">
-          <Link href={`${CONSTANTS.PATHS.UNITS.toLowerCase()}/${id}`} as={`/${CONSTANTS.PATHS.UNITS.toLowerCase()}/${id}`}>
+          <Link
+            href={`${CONSTANTS.PATHS.UNITS.toLowerCase()}/specific-unit`}
+            as={`/${CONSTANTS.PATHS.UNITS.toLowerCase()}/specific-unit`}
+          >
             <h3 className="text-lg font-bold text-gray-800 dark:text-white">
               {type}
             </h3>
@@ -77,8 +81,8 @@ const UnitCard: React.FC<UnitCardProps> = ({
 
         <p className="text-sm mb-4 text-gray-600 dark:text-gray-300 flex items-center">
           <Link
-            href={`${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/1`}
-            as={`/${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/1`}
+            href={`${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/specific-developer`}
+            as={`/${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/specific-developer`}
             className="text-[var(--primary-color)] dark:text-[#b39527] font-semibold flex items-center hover:underline"
           >
             <FaUser className="inline-block mr-1 text-blue-500" />
@@ -86,8 +90,8 @@ const UnitCard: React.FC<UnitCardProps> = ({
           </Link>
           <span className="mx-2">|</span>
           <Link
-            href={`${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/1`}
-            as={`/${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/1`}
+            href={`${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
+            as={`/${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
             className="text-[var(--primary-color)] dark:text-[#b39527] font-semibold flex items-center hover:underline"
           >
             <FaBuilding className="inline-block mr-1 text-blue-500" />
@@ -96,8 +100,8 @@ const UnitCard: React.FC<UnitCardProps> = ({
         </p>
 
         <Link
-          href={`${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/1`}
-          as={`/${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/1`}
+          href={`${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
+          as={`/${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
           className="text-[var(--primary-color)] dark:text-[#b39527] font-semibold flex items-center mb-4 hover:underline"
         >
           <FaMapMarkerAlt className="inline-block mr-1 text-blue-500" />

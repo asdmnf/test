@@ -3,13 +3,13 @@ import DistrictCard from "@/components/Districts/DistrictCard";
 import PageCover from "@/components/PageCover";
 import PageWrapper from "@/components/PageWrapper";
 import ProjectCard from "@/components/projects/ProjectCard";
-import Amenities from "../../projects/[id]/_components/Amenities";
-import PaymentPlans from "../../projects/[id]/_components/PaymentPlans";
-import PropertyTypes from "./_components/PropertyTypes";
 import PageHeader from "@/components/PageHeader";
 import Location from "@/components/Location";
 import BookMeeting from "@/components/BookMeeting";
 import UnitsWrapper from "@/components/units/UnitsWrapper";
+import PropertyTypes from "../_components/PropertyTypes";
+import Amenities from "../../projects/_components/Amenities";
+import PaymentPlans from "../../projects/_components/PaymentPlans";
 
 const UnitPage = () => {
   const unit = {

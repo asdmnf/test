@@ -4,13 +4,13 @@ import DistrictCard from "@/components/Districts/DistrictCard";
 import PageCover from "@/components/PageCover";
 import PageHeader from "@/components/PageHeader";
 import PageWrapper from "@/components/PageWrapper";
-import PropertyTypes from "./_components/PropertyTypes";
-import PaymentPlans from "./_components/PaymentPlans";
-import Amenities from "./_components/Amenities";
 import UnitsWrapper from "@/components/units/UnitsWrapper";
 import Location from "@/components/Location";
 
 import type { Metadata } from "next";
+import PropertyTypes from "../_components/PropertyTypes";
+import Amenities from "../_components/Amenities";
+import PaymentPlans from "../_components/PaymentPlans";
 
 export const metadata: Metadata = {
   title: "Projects",

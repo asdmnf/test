@@ -18,7 +18,7 @@ const NewsSection: React.FC = () => {
       imageSrc: "/images/developers/slide1.jpg",
       date: "21 Oct",
       title: "Details and Information About Al Galala Ain Sokhna 2024",
-      link: "/news/al-galala-ain-sokhna-2024",
+      link: "/specific-news",
     },
     {
       id: 2,
@@ -26,7 +26,7 @@ const NewsSection: React.FC = () => {
       date: "15 Oct",
       title:
         "Your complete guide to all the details and map of the New Administrative Capital",
-      link: "/news/new-administrative-capital",
+      link: "/specific-news",
     },
     {
       id: 3,
@@ -34,7 +34,7 @@ const NewsSection: React.FC = () => {
       date: "15 Sep",
       title:
         "Details About Ras El Hekma and The Most Important Real Estate Projects and Investments in the Area",
-      link: "/news/ras-el-hekma",
+      link: "/specific-news",
     },
   ];
 

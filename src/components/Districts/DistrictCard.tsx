@@ -23,8 +23,8 @@ const DistrictCard: React.FC<{
       {/* Overlay */}
       <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
         <Link
-          href={`${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/1`}
-          as={`/${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/1`}
+          href={`${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
+          as={`/${CONSTANTS.PATHS.DISTRICTS.toLowerCase()}/specific-district`}
         >
           <p className="text-white font-bold text-lg">{name}</p>
         </Link>

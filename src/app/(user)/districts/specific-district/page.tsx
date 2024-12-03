@@ -1,5 +1,3 @@
-"use client";
-
 import BookMeeting from "@/components/BookMeeting";
 import DevelopersWrapper from "@/components/Developers/DevelopersWrapper";
 import Location from "@/components/Location";
@@ -8,12 +6,6 @@ import PageHeader from "@/components/PageHeader";
 import PageWrapper from "@/components/PageWrapper";
 import ProjectsWrapper from "@/components/projects/ProjectsWrapper";
 import UnitsWrapper from "@/components/units/UnitsWrapper";
-
-interface PageProps {
-  params: {
-    id: string;
-  };
-}
 
 const district = {
   id: 1,
@@ -294,12 +286,7 @@ const projects = [
   },
 ];
 
-const DistrictPage = ({params}: PageProps) => {
-  const districtId = params.id;
-  console.log(params);
-  if (!districtId) {
-    return <div>District not found</div>;
-  }
+const DistrictPage = () => {
   return (
     <>
       <PageCover {...district} />
