@@ -296,7 +296,8 @@ const projects = [
   },
 ];
 
-const DistrictPage = ({params}: {params: {id: string}}) => {
+const DistrictPage = async ({params}: {params: {id: string}}) => {
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   console.log(params);
   return (
     <>
