@@ -8,7 +8,6 @@ import {
 } from "react-icons/fa";
 import ImageCarousel from "../ImageCarousel";
 import FavoriteButton from "../FavoriteButton";
-import CONSTANTS from "@/utils/constants";
 
 interface UnitCardProps {
   id: number;
@@ -87,8 +86,8 @@ const UnitCard: React.FC<UnitCardProps> = ({
           </Link>
           <span className="mx-2">|</span>
           <Link
-            href={`${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
-            as={`/${CONSTANTS.PATHS.PROJECTS.toLowerCase()}/specific-project`}
+            href={`/specific-project`}
+            as={`/specific-project`}
             className="text-[var(--primary-color)] dark:text-[#b39527] font-semibold flex items-center hover:underline"
           >
             <FaBuilding className="inline-block mr-1 text-blue-500" />
