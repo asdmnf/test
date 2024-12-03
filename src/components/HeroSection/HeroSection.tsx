@@ -10,9 +10,9 @@ import Image from "next/image";
 
 const HeroSection = () => {
   const images = [
-    "/images/hero-slides/slide1.jpg",
-    "/images/hero-slides/slide2.jpg",
-    "/images/hero-slides/slide3.jpg",
+    "images/hero-slides/slide1.JPG",
+    "images/hero-slides/slide2.jpg",
+    "images/hero-slides/slide3.jpg",
   ];
 
   return (
