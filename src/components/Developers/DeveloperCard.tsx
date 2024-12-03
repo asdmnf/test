@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import ImageCarousel from "../ImageCarousel";
 import FavoriteButton from "../FavoriteButton";
-import CONSTANTS from "@/utils/constants";
+// import CONSTANTS from "@/utils/constants";
 
 interface Developer {
   id: number;
@@ -72,8 +72,8 @@ const DeveloperCard: React.FC<Developer> = ({
             </span>
           )}
           <Link
-            href={`${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/specific-developer`}
-            as={`/${CONSTANTS.PATHS.DEVELOPERS.toLowerCase()}/specific-developer`}
+            href={`/specific-developer`}
+            as={`/specific-developer`}
             className="px-2 py-1 bg-blue-500 hover:bg-blue-600 text-white rounded-md transition duration-200 dark:bg-blue-400 dark:hover:bg-blue-500"
           >
             Read More
